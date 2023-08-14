@@ -1,0 +1,389 @@
+:root {
+  --primaryColor: #f66;
+  --secondaryColor: #6592e6;
+  --primaryHover: rgb(253, 50, 50);
+  --secondaryHover: #3173ed;
+  --tertiaryColor: #fafafa;
+  --tertiaryHover: #cfcfcf;
+}
+
+hr {
+  margin: 2rem 0 1rem !important;
+  border-color: #fff;
+  opacity: 1 !important;
+  /* position: relative; */
+  height: 2px;
+}
+
+.premiumButton {
+  background-color: var(--primaryColor) !important;
+  border-color: var(--primaryColor) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: fit-content;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
+  text-decoration: none !important;
+  z-index: 1;
+}
+.premiumButton a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+.premiumButtonBlue {
+  background-color: var(--secondaryColor) !important;
+  border-color: var(--secondaryColor) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: fit-content;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.premiumButton:hover {
+  background-color: var(--primaryHover) !important;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.premiumButtonBlue:hover {
+  background-color: var(--secondaryHover) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.navText {
+  font-weight: 700;
+  white-space: normal;
+  vertical-align: -4px;
+  font-size: 1.3rem;
+}
+
+.sectionHero {
+  background-image: radial-gradient(
+    circle,
+    #fff,
+    #f6f0fc,
+    #f2e0f5,
+    #f2cfe9,
+    #f4bdd9,
+    #f3b0d2,
+    #f3a3cb,
+    #f296c3,
+    #ea8dcd,
+    #dc87d9,
+    #c783e7,
+    #a982f5
+  );
+  background-color: #fff;
+  padding: 8rem 0 3rem 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  word-wrap: break-word;
+  position: relative;
+}
+.textBlue {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.textMain {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.textMainAbout {
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.textMainNumber {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.videoWrapper {
+  width: 100% !important;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.22%;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.videoWrapperForDemo {
+  width: 100% !important;
+}
+.cardWrapper {
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.cardWrapperNoBg {
+  border-radius: 4px;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.titleClass {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.titleClassAbout {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.descriptionClass {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.paraClass {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.paraClassSmall {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.paraClassXSmall {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.primaryText {
+  color: var(--primaryColor);
+}
+.sectionTitle {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.rowClass {
+  margin-bottom: 7rem !important;
+}
+.buttonClass {
+  color: var(--primaryColor);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.buttonClass:hover {
+  color: var(--primaryHover);
+}
+.expertImages {
+  width: 100px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.sectionHero2 {
+  background-image: url("https://mobirise.com/assets52/images/bg-dnl.webp");
+  background-color: #fff;
+  padding: 8rem 0 3rem 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  word-wrap: break-word;
+  position: relative;
+}
+
+.premiumButtonGrey {
+  background-color: var(--tertiaryColor) !important;
+  border-color: var(--tertiaryColor) !important;
+  color: #4f4f4f !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  max-width: fit-content;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.premiumButtonGrey:hover {
+  background-color: var(--tertiaryHover) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.imageSection {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.viewSectionTitle {
+  font-size: 4.6rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.viewSectionTitleLight {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.footerHero {
+  background-image: radial-gradient(
+    circle,
+    #fff,
+    #f6f0fc,
+    #f2e0f5,
+    #f2cfe9,
+    #f4bdd9,
+    #f3b0d2,
+    #f3a3cb,
+    #f296c3,
+    #ea8dcd,
+    #dc87d9,
+    #c783e7,
+    #a982f5
+  );
+  background-color: #fff;
+  /* padding: 8rem 0 3rem 0; */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+.overlayBG {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.7;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  /* pointer-events: none; */
+  padding: 8rem 0 3rem 0;
+}
+
+.linkClass {
+  color: var(--primaryHover);
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none !important;
+}
+.headerClass {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.accordionDiv {
+  padding: 0 10rem !important;
+}
+
+.container {
+  padding: 0 7rem !important;
+  margin: auto !important;
+}
+
+@media (max-width: 768px) {
+  .headerClass {
+    display: none !important;
+  }
+  .container {
+    padding: 0 !important;
+    margin: auto !important;
+  }
+  .accordionDiv {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .headerSectionSmall {
+    display: none !important;
+  }
+}
+
+.aboutSectionHero {
+  background-image: url("https://mobirise.com/about/assets/images/flight.jpg");
+  background-color: #fff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.overlaySectionHero {
+  padding: 12rem 0 3rem 0;
+  background: linear-gradient(to right top, #e4799d, #866bf5, #0027ff);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  word-wrap: break-word;
+  opacity: 0.7;
+  z-index: 1;
+}
+.aboutSectionHero {
+  color: white;
+  opacity: 1 !important;
+  font-size: 5.6rem;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.imageDivBorder {
+  border-right: var(--secondaryColor) 3px solid;
+}
+
+.reviewText {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+.reviewTextDescription {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.cardImage{
+  border-radius: 50%;
+}
+
+.featuredImages{
+  height: 8rem;
+  width: 8rem;
+}
